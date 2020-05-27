@@ -1,0 +1,19 @@
+/* Style Sheet for the Get in Touch page */
+
+.contactinfo {
+  width:60%;
+  margin:auto;
+  padding-top:20px;
+}
+
+h2 {
+  font-size:200%;
+  padding:20px;
+}
+
+li {
+  font-size:150%;
+  padding:20px;
+  text-align:left;
+}
+

@@ -1,0 +1,27 @@
+/* Style Sheet for the Blog page */
+
+.bloglist {
+  width:75%;
+  margin:auto;
+}
+
+.blogtitlecontainer {
+  padding-top:30px;
+  padding-bottom:20px;
+}
+
+a.blogtitle:link, a.blogtitle:visited {
+  font-size:300%;
+  color:#1abc9c;
+  text-decoration:none;
+}
+
+a.blogtitle:hover, a.blogtitle:active {
+  text-decoration:underline;
+}
+
+.blogabstract {
+  font-size:150%;
+  text-align:left;
+  font-style: italic;
+}

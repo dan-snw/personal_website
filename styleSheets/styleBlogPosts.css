@@ -1,0 +1,14 @@
+.blogbody {
+  width:75%;
+  margin:auto;
+}
+
+.blogheading {
+  font-size:300%;
+  padding-top:30px;
+  padding-bottom:20px;
+}
+
+p {
+  font-size:150%;
+}
