@@ -1,0 +1,113 @@
+/* Main Style Sheet */
+
+/* All Content */
+.AllContent{ 
+}
+
+/* Header */
+.banner {
+  background-color: #e6ffff;
+} 
+
+.header {
+  width: 800px;
+  margin: auto;
+  
+  padding: 50px 0px;
+
+  display:flex;
+  justify-content:space-between;
+}
+
+.menubuttons {
+  display:flex;
+  flex-direction: column;
+}
+
+.name {
+	font: 30px  Verdana, sans-serif;
+  font-weight: 600;
+  color: #666666;
+}
+
+/* Body */
+.main-content {
+  width: 800px;
+  margin: auto;
+  
+  padding: 50px 0px;
+
+  
+  display:flex;
+  justify-content:space-between;
+
+}
+
+.text {
+  width: 500px;
+  text-align: justify;
+  text-justify: inter-word;
+  
+	font: 20px  Verdana, sans-serif;
+  line-height: 30px;
+  color: #2c2c2c;
+}
+
+.p {
+  display: block;
+}
+
+/* Image Side */
+
+.photoContact {
+  display:flex;
+  justify-content:space-between;
+  flex-direction: column;
+  height: 350px;
+  width: 200px;
+  overflow:hidden;
+}
+
+
+img.rounded {
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #e6ffff;
+  height: 200px;
+  width: 200px;
+
+  flex:1;
+}
+
+.getin {
+  font-weight: 600;
+  color:#666666;
+  font-style:italic;
+}
+
+.contactInfo {
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
+  margin: auto;
+  flex:1;
+  padding-top: 20px;
+}
+
+.github {
+}
+
+.twitter { 
+}
+
+img.github {
+  width: 15px;
+}
+
+img.twitter {
+  width: 15px;
+}
+
+img.email {
+  width: 15px;
+}

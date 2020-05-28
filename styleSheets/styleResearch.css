@@ -1,32 +1,4 @@
-/* Style Sheet for the Research page */
-
-.publications {
-  width:75%;
-  margin:auto;
-}
-
-h2 {
-  font-size:200%;
-  padding-top:20px;
-}
-
 .refs {
-  color:black;
-  padding-top:20px;
-  font-size:150%;
-}
-
-a.reference:link, a.reference:visited {
-  color:#1abc9c;
-}
-
-a.reference:hover, a.reference:active {
-  text-decoration:underline;
-}
-
-p {
-  padding-top:20px;
-  font-size: 120%;
-  text-align: justify;
-  text-justify: inter-word;
+  font-weight: 600;
+  color: black;
 }
