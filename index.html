@@ -48,3 +48,25 @@
     </div>
   </div>
 </div>
+
+<!--
+<div id="LastUpdated">Last updated: Uncertain</div>
+
+<script>
+
+  var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    let repos = JSON.parse(this.responseText);
+    
+    repos.forEach((repo)=>{
+      
+      document.write(`<code>${repo.name}</code>: <em>${new Date(repo.updated_at)}</em><br>`);
+    });
+  }
+};
+xhttp.open("GET", "https://api.github.com/users/Dan2796/repos", true);
+xhttp.send();
+
+</script>
+-->
