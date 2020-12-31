@@ -1,0 +1,70 @@
+/* Style Sheet */
+
+body{
+  background-color: #FF7700;
+}
+
+.MainContainer{
+  position:absolute;
+  top:40%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width:100%
+}
+
+.AllContent{
+  width:500px;
+  margin:auto;
+}
+
+.Name{
+  font-weight: 800;
+  font: 30px Arial, Helvetica, sans-serif;
+  text-justify: left;
+}
+
+.UnderName{
+  padding-top: 20px;
+}
+
+.MainText{
+  text-justify: left;
+  font: 20px Arial, Helvetica, sans-serif;
+}
+
+/* In-text References */
+
+a.InTextLink:link, a.InTextLink:visited {
+  color:#393939;
+  text-decoration:none;
+}
+
+a.InTextLink:hover, a.InTextLink:active {
+  color: white;
+  text-decoration:none;
+}
+
+/* List of Contacts */
+
+.ListOfContactMe{
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content:space-between;
+  margin: auto;
+  flex:1;
+  padding-top: 30px;
+  padding-right: 40px;
+}
+
+img{
+  width: 55px;
+}
+
+
