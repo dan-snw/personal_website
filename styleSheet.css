@@ -1,7 +1,7 @@
 /* Style Sheet */
 
 body{
-  background-color: #FF7700;
+  background-color: #000000;
 }
 
 .MainContainer{
@@ -18,8 +18,9 @@ body{
 }
 
 .Name{
+  color:#33FF00;
   font-weight: 800;
-  font: 30px Arial, Helvetica, sans-serif;
+  font: 30px 'Courier New', monospace;
   text-justify: left;
 }
 
@@ -28,15 +29,16 @@ body{
 }
 
 .MainText{
+  color:#33FF00;
   text-justify: left;
-  font: 20px Arial, Helvetica, sans-serif;
+  font: 20px 'Courier New', monospace;
 }
 
 /* In-text References */
 
 a.InTextLink:link, a.InTextLink:visited {
-  color:#393939;
-  text-decoration:none;
+  color:#33FF00;
+  text-decoration:underline;
 }
 
 a.InTextLink:hover, a.InTextLink:active {
@@ -66,5 +68,3 @@ a.InTextLink:hover, a.InTextLink:active {
 img{
   width: 55px;
 }
-
-
