@@ -41,7 +41,7 @@ body{
   padding:20px;
 }
 
-#InTextLink a:link, a:visited {
+a.InTextLink:link, a.InTextLink:visited {
   color:#ffffff;
   text-decoration:underline;
 }
