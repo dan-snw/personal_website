@@ -1,44 +1,51 @@
-<link rel="stylesheet" type="text/css" href="styleSheet.css">
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv-"X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>PersonalWebsite</title>
+</head>
 <body>
-  <div class="MainContainer">
-    <div class="AllContent">
-      <div class="Name">
-        Dan Snow
-      </div>
-      <div class="UnderName">
-        <div class="MainText">
-          <p>
-            Political scientist studying for a DPhil at 
-              <a class="InTextLink", href="https://www.nuffield.ox.ac.uk/",
-                target=blank>
-              Nuffield College</a>, University of Oxford.
-          </p>
-          <p>
-            Using advanced quantitative methods to answer questions 
-              related to polling, voting, and political identity. 
-          </p>
-          <p>
-          Supervised by <a class="InTextLink", 
-            href="http://users.ox.ac.uk/~nuff0084/", target=blank>
-            Prof. Stephen D. Fisher.</a>
-          </p>
-        </div>
+  <section id="main_image">
+    
+    <section id="showcase_text">
+      <h1>Hello, I'm Dan Snow</h1>
+      <p> I am a DPhil student studying political science 
+      </br> at <a class="InTextLink", href="https://www.nuffield.ox.ac.uk/" target=blank>Nuffield College</a>, University of Oxford. </p>
+      <a class="button" href="#section1">Read More</a>
+    </section>
+
+    <section id="section1">
+      <section id="section1_text">
+        <h2>About Me</h2>
+        <p>I am in the second year of my DPhil (PhD) in Sociology, at the University of Oxford. My research is focussed on political sociology, using quantitative methods to understand how individuals come to hold certain attitudes, identify with some groups but not others, and vote for one party over another.
+        </br></br>
+        In my spare time I like playing tennis, ranting about how great Linux is to anyone who will listen, and re-watching the The Office (UK version of course) more times than I care to publicly admit.</p>
+        <a class="button" href="#section2">Get In Touch</a>
+      </section>
+    </section>
+    
+    <section id="section2">
+      <section id="section2_text">
+        <h2>Check out my CV and GitHub, or drop me an email</h2>
         <div class="ListOfContactMe">
           <a class="CvLink" href="CV_Dan_Snow.pdf" target=blank>
-            <img class="CvLink" src="images/cvGreen.png"
-                 onmouseover="this.src='images/cvWhite.png'" 
-                 onmouseout="this.src='images/cvGreen.png'"></a>
-          <a class="Email" href="mailto:dan.snow@nuffield.ox.ac.uk">
-            <img class="Email" src="images/emailGreen.png"
-                 onmouseover="this.src='images/emailWhite.png'" 
-                 onmouseout="this.src='images/emailGreen.png'"></a>
+            <img class="CvLink" src="img/cvWhite.png"
+                 onmouseover="this.src='img/cvOrange.png'" 
+                 onmouseout="this.src='img/cvWhite.png'"></a>
           <a class="Github" href="https://github.com/Dan2796">
-            <img class="default" src="images/githubGreen.png" 
-                 onmouseover="this.src='images/githubWhite.png'" 
-                 onmouseout="this.src='images/githubGreen.png'"></a>
+            <img class="default" src="img/githubWhite.png" 
+                 onmouseover="this.src='img/githubOrange.png'" 
+                 onmouseout="this.src='img/githubWhite.png'"></a>
+          <a class="Email" href="mailto:dan.snow@nuffield.ox.ac.uk">
+            <img class="Email" src="img/emailWhite.png"
+                 onmouseover="this.src='img/emailOrange.png'" 
+                 onmouseout="this.src='img/emailWhite.png'"></a>
       </div>
-    </div>
-  </div>
+      </section>
+    </section>
+  </section>
 </body>
-
+</html>

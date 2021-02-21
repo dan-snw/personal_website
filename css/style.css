@@ -1,0 +1,138 @@
+*{
+  margin:0;
+  padding:0;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin:0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size:17px;
+  color:#404040;
+  line-height:1.6;
+}
+
+#main_image{
+  background-image:url('../img/backgroundImage.jpg');
+  background-size:cover;
+  background-position:center;
+  height:300vh;
+}
+
+#showcase_text{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color:#ffffff;
+}
+
+#showcase_text h1{
+  font-size:50px;
+  line-height:1.2;
+}
+
+#showcase_text p{
+  font-size:20px;
+  padding:20px;
+}
+
+#InTextLink a:link, a:visited {
+  color:#ffffff;
+  text-decoration:underline;
+}
+
+#showcase_text a:hover, a:active {
+  color: #ea8116;
+  text-decoration:none;
+}
+
+#main_image .button{
+  font-size:18px;
+  text-decoration:none;
+  color:#ffffff;
+  border:#ffffff 1px solid;
+  padding:10px 20px;
+  border-radius:10px;
+  margin-top:20px;
+}
+
+#main_image .button:hover{
+  background:#ea8116;
+  color:#ffffff;
+}
+
+
+#section1{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+#section1_text{
+  color:#ffffff;
+  max-width:600px;
+  padding:20px;
+}
+
+#section1 h2{
+  font-size:30px;
+  line-height:1.2;
+}
+
+#section1 p{
+  text-align:justify;
+  padding-top:30px;
+  padding-bottom:40px;
+}
+
+#section2{
+  height:100vh;
+  color:#ffffff;
+  align-items:center;
+  justify-content:center;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+#section2{
+  height:100vh;
+  display:flex;
+}
+#section2_text{
+  position:center;
+  padding:20px;
+}
+
+#section2 h2{
+  padding:30px;
+}
+
+.ListOfContactMe{
+  width:50%;
+  display: flex;
+  flex-align: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content:space-between;
+  margin: auto;
+  padding-right: 40px;
+}
+
+img{
+  width: 55px;
+}
