@@ -1,0 +1,22 @@
+body {
+  background-color: #252d3b;
+  color: #e2dfdf;
+  display: flex;
+  justify-content: center;
+}
+
+h1, h2, h3 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+}
