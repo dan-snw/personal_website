@@ -3,7 +3,7 @@ import Welcome from './components/Welcome.jsx'
 import Portfolio from './components/Portfolio.jsx'
 import GetInTouch from './components/GetInTouch.jsx'
 import Navigation from './components/Navigation.jsx';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   const mainBoxStyle = {
@@ -14,7 +14,7 @@ function App() {
     flexDirection: "column",
   }
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div style={mainBoxStyle}>
       <Navigation />
         <h1>Hi, I'm Dan.</h1>
@@ -24,7 +24,7 @@ function App() {
             <Route exact path="/getInTouch" element={<GetInTouch />} />
           </Routes>
         </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
