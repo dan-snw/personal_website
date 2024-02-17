@@ -9,16 +9,16 @@ const Welcome = () => {
   useEffect(() => {
     const timeout1 = setTimeout(() => {
       setShow1(true);
-    }, 500);
+    }, 0);
     const timeout2 = setTimeout(() => {
       setShow2(true);
-    }, 1500);
+    }, 1000);
     const timeout3 = setTimeout(() => {
       setShow3(true);
-    }, 2500);
+    }, 2000);
     const timeout4 = setTimeout(() => {
       setShow4(true);
-    }, 3500);
+    }, 3000);
     return () => {
       clearTimeout(timeout1);
       clearTimeout(timeout2);
