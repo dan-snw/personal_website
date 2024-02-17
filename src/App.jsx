@@ -7,7 +7,9 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   const mainBoxStyle = {
-    marginTop: "20vh",
+    marginTop: "5vw",
+    marginLeft: "20px",
+    marginRight: "20px",
     maxWidth: "600px",
     minHeight: "500px",
     display: "flex",
@@ -17,13 +19,12 @@ function App() {
     <HashRouter>
       <div style={mainBoxStyle}>
       <Navigation />
-        <h1>Hi, I'm Dan.</h1>
-          <Routes>
-            <Route exact path="/" element={<Welcome />} />
-            <Route exact path="/portfolio" element={<Portfolio />} />
-            <Route exact path="/getInTouch" element={<GetInTouch />} />
-          </Routes>
-        </div>
+        <Routes>
+          <Route exact path="/" element={<Welcome />} />
+          <Route exact path="/portfolio" element={<Portfolio />} />
+          <Route exact path="/getInTouch" element={<GetInTouch />} />
+        </Routes>
+      </div>
     </HashRouter>
   )
 }
