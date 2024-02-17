@@ -6,6 +6,7 @@ import Navigation from './components/Navigation.jsx';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
+
   const mainBoxStyle = {
     marginTop: "5vw",
     marginLeft: "20px",

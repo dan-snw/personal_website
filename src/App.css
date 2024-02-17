@@ -17,3 +17,11 @@ a:visited {
 a:hover {
   text-decoration: underline;
 }
+
+h1, h3 {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+.show {
+  opacity: 1;
+}
