@@ -12,7 +12,6 @@ function App() {
     marginLeft: "20px",
     marginRight: "20px",
     maxWidth: "600px",
-    minHeight: "500px",
     display: "flex",
     flexDirection: "column",
   }
