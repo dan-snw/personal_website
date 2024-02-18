@@ -12,13 +12,13 @@ const GetInTouch = () => {
     }, 0);
     const timeout2 = setTimeout(() => {
       setShow2(true);
-    }, 1000);
+    }, 500);
     const timeout3 = setTimeout(() => {
       setShow3(true);
-    }, 2000);
+    }, 1000);
     const timeout4 = setTimeout(() => {
       setShow4(true);
-    }, 3000);
+    }, 1500);
     return () => {
       clearTimeout(timeout1);
       clearTimeout(timeout2);
@@ -29,9 +29,9 @@ const GetInTouch = () => {
   return (
     <div>
       <h1 className={show1 ? 'show' : ''}>I'd love to hear from you!</h1>
-      <h3 className={show2 ? 'show' : ''}>If you'd like to get in touch about an upcoming opportunity, or if you just want to reach out, please do get in touch.</h3>
-      <h3 className={show3 ? 'show' : ''}>You can email me at <a href="mailto:danjsnow@outlook.com">danjsnow@outlook.com.</a></h3>
+      <h3 className={show2 ? 'show' : ''}>You can email me at <a href="mailto:danjsnow@outlook.com">danjsnow@outlook.com.</a></h3>
       <h3 className={show3 ? 'show' : ''}>Or else find me on <a href="https://www.linkedin.com/in/dan-snow-60363a299">LinkedIn.</a></h3>
+      <h3 className={show4 ? 'show' : ''}>If you'd like to get in touch about an upcoming opportunity, or if you just want to reach out, please do get in touch.</h3>
     </div>
   )
 }

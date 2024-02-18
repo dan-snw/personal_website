@@ -12,16 +12,16 @@ const Portfolio = () => {
       }, 0);
       const timeout2 = setTimeout(() => {
         setShow2(true);
-      }, 1000);
+      }, 500);
       const timeout3 = setTimeout(() => {
         setShow3(true);
-      }, 2000);
+      }, 1000);
       const timeout4 = setTimeout(() => {
         setShow4(true);
-      }, 3000);
+      }, 1500);
       const timeout5 = setTimeout(() => {
         setShow5(true);
-      }, 4000);
+      }, 2000);
       return () => {
         clearTimeout(timeout1);
         clearTimeout(timeout2);
