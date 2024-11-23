@@ -1,6 +1,6 @@
 import './App.css'
 import Welcome from './components/Welcome.jsx'
-import Portfolio from './components/Portfolio.jsx'
+import AboutMe from './components/AboutMe.jsx'
 import GetInTouch from './components/GetInTouch.jsx'
 import Navigation from './components/Navigation.jsx';
 import { HashRouter, Routes, Route } from 'react-router-dom';
@@ -21,7 +21,7 @@ function App() {
       <Navigation />
         <Routes>
           <Route exact path="/" element={<Welcome />} />
-          <Route exact path="/portfolio" element={<Portfolio />} />
+          <Route exact path="/aboutMe" element={<AboutMe />} />
           <Route exact path="/getInTouch" element={<GetInTouch />} />
         </Routes>
       </div>

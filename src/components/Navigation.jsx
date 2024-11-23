@@ -23,9 +23,9 @@ const Navigation = () => {
         <li className='navLink'><NavLink to='/'
           style = {({ isActive }) => (isActive ? activePageLinkStyle : inactivePageLinkStyle)}>
           Welcome</NavLink></li>
-        <li className='navLink'><NavLink to='/portfolio'
+        <li className='navLink'><NavLink to='/aboutMe'
           style = {({ isActive }) => (isActive ? activePageLinkStyle : inactivePageLinkStyle)}>
-          Portfolio</NavLink></li>
+          About Me</NavLink></li>
         <li className='navLink'><NavLink to='/getInTouch'
           style = {({ isActive }) => (isActive ? activePageLinkStyle : inactivePageLinkStyle)}>
           Get in touch</NavLink></li>
